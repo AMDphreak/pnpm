@@ -1,7 +1,7 @@
 import { readMsgpackFileSync } from '@pnpm/fs.msgpack-file'
 import { loadJsonFileSync } from 'load-json-file'
 import { getIndexFilePathInCafs, getFilePathByModeInCafs, type PackageFilesIndex } from '@pnpm/store.cafs'
-import { type DependencyManifest } from '@pnpm/types'
+import type { DependencyManifest } from '@pnpm/types'
 
 /**
  * Attempts to read a package manifest from the content-addressable store (CAFS)

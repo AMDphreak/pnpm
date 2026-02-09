@@ -2,7 +2,7 @@ import path from 'path'
 import { depPathToFilename, parse } from '@pnpm/dependency-path'
 import { fetchFromDir } from '@pnpm/directory-fetcher'
 import { readMsgpackFile } from '@pnpm/fs.msgpack-file'
-import { type Resolution } from '@pnpm/resolver-base'
+import type { Resolution } from '@pnpm/resolver-base'
 import { getFilePathByModeInCafs, getIndexFilePathInCafs, type PackageFilesIndex } from '@pnpm/store.cafs'
 
 export interface ReadPackageFileMapOptions {
